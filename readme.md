@@ -63,3 +63,59 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 	Ray
 {/let}
 ```
+
+## Conditionals
+
+###### if
+
+```
+{if $name}
+	Hello {$name}
+{/if}
+```
+
+###### if and
+
+```
+{if $name and $lastName}
+	Hello {$name} {$lastName}
+{/if}
+```
+
+###### if not
+
+```
+{if not $name}
+	Hello there
+{/if}
+```
+
+###### else
+
+```
+{if $name}
+	Hello {$name}
+{else}
+	Hello there
+{/if}
+```
+
+###### elseif
+
+```
+{if $gender == 'Male'}
+	Hello Sir!
+{elseif $name == 'Female'}
+	Hello Madam!
+{/if}
+```
+
+###### ternary
+
+```
+{$name ?: 'Hello {$name}'}
+```
+
+```
+{$name ? 'Hello {$name}' : 'Hello there'}
+```
