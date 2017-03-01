@@ -151,11 +151,13 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 {/switch}
 ```
 
-###### ternary
+###### elvis
 
 ```
 {$name ?: 'Hello {$name}'}
 ```
+
+###### ternary
 
 ```
 {$name ? 'Hello {$name}' : 'Hello there'}
