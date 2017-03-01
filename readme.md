@@ -119,3 +119,23 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 ```
 {$name ? 'Hello {$name}' : 'Hello there'}
 ```
+
+## Loops
+
+###### foreach
+
+```
+{foreach $name in $names}
+	Hello {$name}
+{/foreach}
+```
+
+###### ifempty
+
+```
+{foreach $name in $names}
+	Hello {$name}
+{ifempty}
+	Hello there
+{/foreach}
+```
