@@ -11,6 +11,7 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 * [Namespace](#namespace)
 * [Template](#template)
 * [Parameters](#parameters)
+* [Parameter Types](#parameter-types)
 * [Call](#call)
 * [Variables](#variables)
 * [Conditionals](#conditionals)
