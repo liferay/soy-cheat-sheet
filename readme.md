@@ -37,11 +37,28 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 
 ## Parameters
 
+###### required
+
 ```
 /**
- * @param name
+ *
  */
 {template .hello}
+	{@param name: string}
+
+	Hello {$name}
+{/template}
+```
+
+###### optional
+
+```
+/**
+ *
+ */
+{template .hello}
+	{@param? name: string}
+
 	Hello {$name}
 {/template}
 ```
