@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="https://cloud.githubusercontent.com/assets/398893/23471606/ccc436a2-fe5e-11e6-954d-ec1449b4a961.png" alt="Logo">
+</p>
+
 <h1 align="center">Soy Cheat Sheet</h1>
 
 [Liferay](https://www.liferay.com/) has been using [Soy templates](https://developers.google.com/closure/templates/) (aka. Google Closure templates) extensively in production.
