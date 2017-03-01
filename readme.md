@@ -118,6 +118,14 @@ Type1|Type2               // Union
 ```
 
 ```
+{call .hello}
+	{param name kind="html"}
+		<b>{$name}</b>
+	{/param}
+{/call}
+```
+
+```
 {call .hello data="all" /}
 ```
 
