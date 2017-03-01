@@ -11,6 +11,7 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 * [Namespace](#namespace)
 * [Template](#template)
 * [Parameters](#parameters)
+* [Parameter Types](#parameter-types)
 * [Call](#call)
 * [Variables](#variables)
 * [Conditionals](#conditionals)
@@ -24,6 +25,8 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 {namespace foo}
 ```
 
+> [See Docs](https://developers.google.com/closure/templates/docs/commands#namespace "Namespace")
+
 ## Template
 
 ```
@@ -34,6 +37,8 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 	Hello world
 {/template}
 ```
+
+> [See Docs](https://developers.google.com/closure/templates/docs/commands#template "Template")
 
 ## Parameters
 
@@ -63,6 +68,10 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 {/template}
 ```
 
+> [See Docs](https://developers.google.com/closure/templates/docs/commands#param "Parameters")
+
+## Parameter Types
+
 ###### primitive types
 
 ```
@@ -91,6 +100,8 @@ map<KeyType, ValueType>   // Map
 Type1|Type2               // Union
 ```
 
+> [See Docs](https://developers.google.com/closure/templates/docs/commands#parameter-type-expressions "Parameter Types")
+
 ## Call
 
 ```
@@ -109,6 +120,8 @@ Type1|Type2               // Union
 ```
 {call .hello data="all" /}
 ```
+
+> [See Docs](https://developers.google.com/closure/templates/docs/commands#call "Call")
 
 ## Variables
 
@@ -136,6 +149,8 @@ Type1|Type2               // Union
 	<p>Jon</p>
 {/let}
 ```
+
+> [See Docs](https://developers.google.com/closure/templates/docs/commands#let "Let")
 
 ## Conditionals
 
@@ -183,6 +198,8 @@ Type1|Type2               // Union
 {/if}
 ```
 
+> [See Docs](https://developers.google.com/closure/templates/docs/commands#if "If / Else / ElseIf")
+
 ###### switch
 
 ```
@@ -196,6 +213,8 @@ Type1|Type2               // Union
 {/switch}
 ```
 
+> [See Docs](https://developers.google.com/closure/templates/docs/commands#switch "Switch")
+
 ###### elvis
 
 ```
@@ -207,6 +226,8 @@ Type1|Type2               // Union
 ```
 {$name ? 'Hello {$name}' : 'Hello there'}
 ```
+
+> [See Docs](https://developers.google.com/closure/templates/docs/concepts#operators "Operators")
 
 ## Loops
 
@@ -228,6 +249,8 @@ Type1|Type2               // Union
 {/foreach}
 ```
 
+> [See Docs](https://developers.google.com/closure/templates/docs/commands#foreach "Foreach / Ifempty")
+
 ## Special Characters
 
 ###### literal
@@ -242,6 +265,8 @@ Type1|Type2               // Union
 {/literal}
 ```
 
+> [See Docs](https://developers.google.com/closure/templates/docs/commands#literal "Literal")
+
 ###### miscellaneous
 
 ```
@@ -253,6 +278,8 @@ Type1|Type2               // Union
 {lb}  // left brace
 {rb}  // right brace
 ```
+
+> [See Docs](https://developers.google.com/closure/templates/docs/commands#specialcharacters "Special Characters")
 
 ## Functions
 
@@ -299,3 +326,5 @@ Type1|Type2               // Union
 {augmentMap(map1, map2)}
 {keys(map)}
 ```
+
+> [See Docs](https://developers.google.com/closure/templates/docs/functions "Functions")
