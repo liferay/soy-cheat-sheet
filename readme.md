@@ -192,16 +192,42 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 
 ## Functions
 
+### any
+
+{isNonnull(value)}
+
+### string
+
 ```
-{augmentMap(map1, map2)}
+{strContains(string, subString)}
+```
+
+### number
+
+```
 {ceiling(number)}
 {floor(number)}
-{isNonnull(value)}
-{keys(map)}
-{length(list)}
 {max(number, number)}
 {min(number, number)}
 {randomInt(number)}
 {round(number)}
-{strContains(string, subString)}
+```
+
+### foreach
+
+```
+{index($var)}
+{isFirst($var)}
+{isLast($var)}
+```
+
+### list
+
+{length(list)}
+
+### map
+
+```
+{augmentMap(map1, map2)}
+{keys(map)}
 ```
