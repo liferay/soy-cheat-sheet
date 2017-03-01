@@ -59,7 +59,7 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 ```
 {call .hello}
 	{param name: $name /}
-	{param lastName: $lastName}
+	{param lastName: $lastName /}
 {/call}
 ```
 
