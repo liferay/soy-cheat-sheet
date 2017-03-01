@@ -51,3 +51,15 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 ```
 {call .hello data="all" /}
 ```
+
+## Variables
+
+```
+{let $name: 'Ray' /}
+```
+
+```
+{let $name}
+	Ray
+{/let}
+```
