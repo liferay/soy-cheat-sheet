@@ -14,6 +14,7 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 * [Conditionals](#conditionals)
 * [Loops](#loops)
 * [Special Characters](#special-characters)
+* [Functions](#functions)
 
 ## Namespace
 
@@ -187,4 +188,20 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 {\t}  // tab
 {lb}  // left brace
 {rb}  // right brace
+```
+
+## Functions
+
+```
+{augmentMap(map1, map2)}
+{ceiling(number)}
+{floor(number)}
+{isNonnull(value)}
+{keys(map)}
+{length(list)}
+{max(number, number)}
+{min(number, number)}
+{randomInt(number)}
+{round(number)}
+{strContains(string, subString)}
 ```
