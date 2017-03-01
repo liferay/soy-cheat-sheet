@@ -37,13 +37,58 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 
 ## Parameters
 
+###### required
+
 ```
 /**
- * @param name
+ *
  */
 {template .hello}
+	{@param name: string}
+
 	Hello {$name}
 {/template}
+```
+
+###### optional
+
+```
+/**
+ *
+ */
+{template .hello}
+	{@param? name: string}
+
+	Hello {$name}
+{/template}
+```
+
+###### primitive types
+
+```
+string
+bool
+int
+float
+number
+```
+
+###### other types
+
+```
+any
+?
+null
+html
+```
+
+###### complex types
+
+```
+list<Type>                // List
+map<KeyType, ValueType>   // Map
+[a:KeyType, b:ValueType]  // Record
+Type1|Type2               // Union
 ```
 
 ## Call
