@@ -192,19 +192,19 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 
 ## Functions
 
-### any
+###### any
 
 ```
 {isNonnull(value)}
 ```
 
-### string
+###### string
 
 ```
 {strContains(string, subString)}
 ```
 
-### number
+###### number
 
 ```
 {ceiling(number)}
@@ -215,7 +215,7 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 {round(number)}
 ```
 
-### foreach
+###### foreach
 
 ```
 {index($var)}
@@ -223,13 +223,13 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 {isLast($var)}
 ```
 
-### list
+###### list
 
 ```
 {length(list)}
 ```
 
-### map
+###### map
 
 ```
 {augmentMap(map1, map2)}
