@@ -135,7 +135,7 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 ```
 {if $gender == 'Male'}
 	Hello Sir
-{elseif $name == 'Female'}
+{elseif $gender == 'Female'}
 	Hello Madam
 {/if}
 ```
