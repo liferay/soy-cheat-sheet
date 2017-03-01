@@ -48,7 +48,7 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 
 ```
 {call .hello}
-	{param name: 'Ray' /}
+	{param name: 'Jon' /}
 {/call}
 ```
 
@@ -66,14 +66,28 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 ## Variables
 
 ```
-{let $name: 'Ray' /}
+{let $name: 'Jon' /}
+```
+
+```
+{let $names: [
+	['first': 'Jon', 'last': 'Snow'],
+	['first': 'Arya', 'last': 'Stark']
+] /}
+```
+
+###### kind
+
+```
+{let $name kind="text"}
+	Jon
+{/let}
 ```
 
 ```
 {let $name kind="html"}
-	<p>Ray</p>
+	<p>Jon</p>
 {/let}
-```
 
 ## Conditionals
 
