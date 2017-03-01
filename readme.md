@@ -37,7 +37,6 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 ```
 /**
  * @param name
- * @param? lastName 
  */
 {template .hello}
 	Hello {$name}
@@ -115,10 +114,23 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 
 ```
 {if $gender == 'Male'}
-	Hello Sir!
+	Hello Sir
 {elseif $name == 'Female'}
-	Hello Madam!
+	Hello Madam
 {/if}
+```
+
+###### switch
+
+```
+{switch $gender}
+  {case 'Male'}
+    Hello Sir
+  {case 'Female'}
+    Hello Madam
+  {default}
+    Hello Human
+{/switch}
 ```
 
 ###### ternary
