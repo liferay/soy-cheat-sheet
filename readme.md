@@ -194,7 +194,9 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 
 ### any
 
+```
 {isNonnull(value)}
+```
 
 ### string
 
@@ -223,7 +225,9 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 
 ### list
 
+```
 {length(list)}
+```
 
 ### map
 
