@@ -139,3 +139,29 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 	Hello there
 {/foreach}
 ```
+
+## Special Characters
+
+###### literal
+
+```
+{literal}
+	<pre>
+	function() {
+		console.log('Hello');
+	}
+	</pre>
+{/literal}
+```
+
+###### miscellaneous
+
+```
+{sp}  // space
+{nil} // empty string
+{\n}  // newline
+{\r}  // carriage return
+{\t}  // tab
+{lb}  // left brace
+{rb}  // right brace
+```
