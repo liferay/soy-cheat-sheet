@@ -1,4 +1,4 @@
-# Soy Cheat Sheet
+<h1 align="center">Soy Cheat Sheet</h1>
 
 [Liferay](https://www.liferay.com/) has been using [Soy templates](https://developers.google.com/closure/templates/) (aka. Google Closure templates) extensively in production.
 
