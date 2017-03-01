@@ -4,6 +4,17 @@
 
 So we decided to create a collection of cool hidden and not so hidden features, to be used as a quick reference so that you turn coffee into code much faster :)
 
+## Table of Contents
+
+* [Namespace](#namespace)
+* [Template](#template)
+* [Parameters](#parameters)
+* [Call](#call)
+* [Variables](#variables)
+* [Conditionals](#conditionals)
+* [Loops](#loops)
+* [Special Characters](#special-characters)
+
 ## Namespace
 
 ```
