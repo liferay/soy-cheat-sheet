@@ -88,6 +88,7 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 {let $name kind="html"}
 	<p>Jon</p>
 {/let}
+```
 
 ## Conditionals
 
