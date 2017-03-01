@@ -32,3 +32,22 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 	Hello {$name}
 {/template}
 ```
+
+## Call
+
+```
+{call .hello}
+	{param name: 'Ray' /}
+{/call}
+```
+
+```
+{call .hello}
+	{param name: $name /}
+	{param lastName: $lastName}
+{/call}
+```
+
+```
+{call .hello data="all" /}
+```
