@@ -20,3 +20,15 @@ So we decided to create a collection of cool hidden and not so hidden features, 
 	Hello world
 {/template}
 ```
+
+## Parameters
+
+```
+/**
+ * @param name
+ * @param? lastName 
+ */
+{template .hello}
+	Hello {$name}
+{/template}
+```
