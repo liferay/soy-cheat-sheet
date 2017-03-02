@@ -218,7 +218,7 @@ Type1|Type2               // Union
 ###### elvis
 
 ```
-{$name ?: 'Hello {$name}'}
+Hello {$name ?: 'there'}
 ```
 
 ###### ternary
