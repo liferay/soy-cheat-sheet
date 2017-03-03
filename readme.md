@@ -215,16 +215,18 @@ Type1|Type2               // Union
 
 > [See Docs](https://developers.google.com/closure/templates/docs/commands#switch "Switch")
 
-###### elvis
-
-```
-Hello {$name ?: 'there'}
-```
-
 ###### ternary
 
 ```
-{$name ? 'Hello {$name}' : 'Hello there'}
+{isNonnull($name) ? 'Hello {$name}' : 'Hello there'}
+```
+
+> [See Docs](https://developers.google.com/closure/templates/docs/concepts#operators "Operators")
+
+###### elvis (null-coalescing)
+
+```
+Hello {$name ?: 'there'}
 ```
 
 > [See Docs](https://developers.google.com/closure/templates/docs/concepts#operators "Operators")
