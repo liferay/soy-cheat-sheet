@@ -21,7 +21,7 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 
 ## Namespace
 
-```
+```soy
 {namespace foo}
 ```
 
@@ -29,7 +29,7 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 
 ## Template
 
-```
+```soy
 /**
  *
  */
@@ -44,7 +44,7 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 
 ###### required
 
-```
+```soy
 /**
  *
  */
@@ -57,7 +57,7 @@ A collection of cool hidden and not so hidden features, to be used as a quick re
 
 ###### optional
 
-```
+```soy
 /**
  *
  */
@@ -104,20 +104,20 @@ Type1|Type2               // Union
 
 ## Call
 
-```
+```soy
 {call .hello}
 	{param name: 'Jon' /}
 {/call}
 ```
 
-```
+```soy
 {call .hello}
 	{param name: $name /}
 	{param lastName: $lastName /}
 {/call}
 ```
 
-```
+```soy
 {call .hello data="all" /}
 ```
 
@@ -125,11 +125,11 @@ Type1|Type2               // Union
 
 ## Variables
 
-```
+```soy
 {let $name: 'Jon' /}
 ```
 
-```
+```soy
 {let $names: [
 	['first': 'Jon', 'last': 'Snow'],
 	['first': 'Arya', 'last': 'Stark']
@@ -138,13 +138,13 @@ Type1|Type2               // Union
 
 ###### kind
 
-```
+```soy
 {let $name kind="text"}
 	Jon
 {/let}
 ```
 
-```
+```soy
 {let $name kind="html"}
 	<p>Jon</p>
 {/let}
@@ -156,7 +156,7 @@ Type1|Type2               // Union
 
 ###### if
 
-```
+```soy
 {if $name}
 	Hello {$name}
 {/if}
@@ -164,7 +164,7 @@ Type1|Type2               // Union
 
 ###### if and
 
-```
+```soy
 {if $name and $lastName}
 	Hello {$name} {$lastName}
 {/if}
@@ -172,7 +172,7 @@ Type1|Type2               // Union
 
 ###### if not
 
-```
+```soy
 {if not $name}
 	Hello there
 {/if}
@@ -180,7 +180,7 @@ Type1|Type2               // Union
 
 ###### else
 
-```
+```soy
 {if $name}
 	Hello {$name}
 {else}
@@ -190,7 +190,7 @@ Type1|Type2               // Union
 
 ###### elseif
 
-```
+```soy
 {if $gender == 'Male'}
 	Hello Sir
 {elseif $gender == 'Female'}
@@ -202,7 +202,7 @@ Type1|Type2               // Union
 
 ###### switch
 
-```
+```soy
 {switch $gender}
   {case 'Male'}
     Hello Sir
@@ -217,13 +217,13 @@ Type1|Type2               // Union
 
 ###### elvis
 
-```
+```soy
 Hello {$name ?: 'there'}
 ```
 
 ###### ternary
 
-```
+```soy
 {$name ? 'Hello {$name}' : 'Hello there'}
 ```
 
@@ -233,7 +233,7 @@ Hello {$name ?: 'there'}
 
 ###### foreach
 
-```
+```soy
 {foreach $name in $names}
 	Hello {$name}
 {/foreach}
@@ -241,7 +241,7 @@ Hello {$name ?: 'there'}
 
 ###### ifempty
 
-```
+```soy
 {foreach $name in $names}
 	Hello {$name}
 {ifempty}
@@ -255,7 +255,7 @@ Hello {$name ?: 'there'}
 
 ###### literal
 
-```
+```soy
 {literal}
 	<pre>
 	function() {
@@ -269,7 +269,7 @@ Hello {$name ?: 'there'}
 
 ###### miscellaneous
 
-```
+```soy
 {sp}  // space
 {nil} // empty string
 {\n}  // newline
@@ -285,19 +285,19 @@ Hello {$name ?: 'there'}
 
 ###### any
 
-```
+```soy
 {isNonnull(value)}
 ```
 
 ###### string
 
-```
+```soy
 {strContains(string, subString)}
 ```
 
 ###### number
 
-```
+```soy
 {ceiling(number)}
 {floor(number)}
 {max(number, number)}
@@ -308,7 +308,7 @@ Hello {$name ?: 'there'}
 
 ###### foreach
 
-```
+```soy
 {index($var)}
 {isFirst($var)}
 {isLast($var)}
@@ -316,13 +316,13 @@ Hello {$name ?: 'there'}
 
 ###### list
 
-```
+```soy
 {length(list)}
 ```
 
 ###### map
 
-```
+```soy
 {augmentMap(map1, map2)}
 {keys(map)}
 ```
