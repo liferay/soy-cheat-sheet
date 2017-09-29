@@ -1,3 +1,5 @@
+// Move patterns and ideas to https://github.com/liferay/liferay-frontend-guidelines/tree/master/src/pages/soy ?
+
 <p align="center">
 	<img src="https://cloud.githubusercontent.com/assets/398893/23471606/ccc436a2-fe5e-11e6-954d-ec1449b4a961.png" alt="Logo">
 </p>
